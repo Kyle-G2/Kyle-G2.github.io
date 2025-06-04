@@ -3,8 +3,8 @@ body {
     color: rgb(63, 63, 63);
     padding: 10px;
     font-family: Arial, sans-serif;
-    background-image:url(https://preview.redd.it/cerulean-coast-is-a-huge-disappointment-v0-pnrtsn8ml9me1.jpeg?auto=webp&s=4933b7e4e77a3bbfa5c21ced7af6a64c46b1c942)
-
+    background-image:url("https://preview.redd.it/cerulean-coast-is-a-huge-disappointment-v0-pnrtsn8ml9me1.jpeg?auto=webp&s=4933b7e4e77a3bbfa5c21ced7af6a64c46b1c942");
+    background-size: auto; 
 }
 
 #all-contents {
