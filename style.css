@@ -3,11 +3,15 @@ body {
     color: rgb(63, 63, 63);
     padding: 10px;
     font-family: Arial, sans-serif;
+    background-image:url(https://preview.redd.it/cerulean-coast-is-a-huge-disappointment-v0-pnrtsn8ml9me1.jpeg?auto=webp&s=4933b7e4e77a3bbfa5c21ced7af6a64c46b1c942)
+
 }
 
 #all-contents {
     max-width: 800px;
     margin: auto;
+    /* box-shadow: 14px 14px 4px; */
+    border-radius: 20px;
 }
 
 /* navigation menu */
@@ -15,7 +19,14 @@ nav {
     background: rgb(72, 27, 0);
     margin: 0 auto;
     display: flex;
+    border-radius: 10px;
     padding: 10px;
+    box-shadow: 10px 10px 4px;
+    border-radius: 10px;
+}
+
+nav h1 {
+  text-shadow: 2px 2px 4px #000;
 }
 
 h1 {
@@ -34,8 +45,9 @@ h1 {
 }
 
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
+  text-shadow: 2px 2px 4px #000;
 }
 
 a {
@@ -48,6 +60,8 @@ main {
     background: rgb(245, 238, 219);
     display: flex;
     margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px;
 }
 
 .sidebar {
