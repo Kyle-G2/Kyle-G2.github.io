@@ -10,7 +10,7 @@ body {
 #all-contents {
     max-width: 800px;
     margin: auto;
-    /* box-shadow: 14px 14px 4px; */
+    box-shadow: 14px 14px 4px;
     border-radius: 20px;
 }
 
