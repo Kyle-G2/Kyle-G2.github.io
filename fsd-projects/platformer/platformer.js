@@ -70,13 +70,13 @@ createPlatform(350, 100, 100, 10);
 
     
     // TODO 4 - Create Cannons
-    createCannon("top", 500, 2000)
-    createCannon("right", 370, 2000)
-    createCannon("top", 700, 3000)
-    createCannon("top", 800, 3000)
-    createCannon("top", 900, 3000)
-    createCannon("top", 1400, 2000)
-    createCannon("left", 0, 2000)
+    createCannon("top", 500, 2000);
+    createCannon("right", 370, 2000);
+    createCannon("top", 700, 3000);
+    createCannon("top", 800, 3000);
+    createCannon("top", 900, 3000);
+    createCannon("top", 1400, 2000);
+    createCannon("left", 0, 2000);
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
