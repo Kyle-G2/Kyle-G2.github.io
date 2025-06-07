@@ -1,9 +1,11 @@
 body {
   margin: 0px;
+  background-color: rgb(6, 0, 63)
 }
 
 canvas {
-  background-color: lightblue;
+  background-color: rgb(189, 189, 189);
+  background-image: url("https://images3.alphacoders.com/114/thumb-1920-1140964.png");
   margin: 20px;
 }
 
