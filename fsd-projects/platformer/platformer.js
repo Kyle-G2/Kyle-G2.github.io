@@ -61,10 +61,10 @@ createPlatform(100, 200, 100, 10)
 createPlatform(350, 100, 100, 10);
 
     // TODO 3 - Create Collectables
-    createCollectable("diamond", 450, 150, 0, 0);
-    createCollectable("max", 1350, 150, 0, 0);
-    createCollectable("steve", 1350, 700, 0, 0);
-    createCollectable("grace", 250, 500, 0, 0);
+    createCollectable("screw", 450, 150, 0, 0);
+    createCollectable("screw", 1350, 150, 0, 0);
+    createCollectable("screw", 1350, 700, 0, 0);
+    createCollectable("screw", 250, 500, 0, 0);
 
 
 
