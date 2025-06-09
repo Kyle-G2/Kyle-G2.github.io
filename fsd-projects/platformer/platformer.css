@@ -1,11 +1,13 @@
 body {
   margin: 0px;
-  background-color: rgb(6, 0, 63)
+  background-color: rgb(255, 118, 27)
 }
 
 canvas {
   background-color: rgb(189, 189, 189);
-  background-image: url("https://images3.alphacoders.com/114/thumb-1920-1140964.png");
+  background-image: url("https://i.redd.it/2r0ewy06kic81.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 20px;
 }
 

@@ -27,38 +27,38 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    //toggleGrid();//
+    toggleGrid();//
 
 
     // TODO 2 - Create Platforms
-createPlatform(300, 400, 20, 210, "rgb(10, 0, 99)")
-createPlatform(0, 400, 300, 20, "rgb(10, 0, 99)")
-createPlatform(490, 500, 110, 20, "rgb(10, 0, 99)")
-createPlatform(0, 650, 100, 20, "rgb(10, 0, 99)")
-createPlatform(200, 550, 100, 20, "rgb(10, 0, 99)")
-createPlatform(300, 610, 100, 20, "rgb(10, 0, 99)")
-createPlatform(500, 0, 20, 400, "rgb(10, 0, 99)")
-createPlatform(500, 390, 100, 20, "rgb(10, 0, 99)")
-createPlatform(600, 500, 10, 20, "rgb(10, 0, 99)")
-createPlatform(590, 280, 120, 20, "rgb(10, 0, 99)")
-createPlatform(600, 190, 100, 20, "rgb(10, 0, 99)")
-createPlatform(900, 300, 200, 10, "rgb(10, 0, 99)")
-createPlatform(600, 80, 110, 20, "rgb(10, 0, 99)")
-createPlatform(1100, 200, 300, 10, "rgb(10, 0, 99)")
-createPlatform(1300, 100, 20, 100, "rgb(10, 0, 99)")
-createPlatform(900, 100, 300, 20, "rgb(10, 0, 99)")
-createPlatform(900, 300, 20, 440, "rgb(10, 0, 99)")
-createPlatform(1000, 400, 400, 10, "rgb(10, 0, 99)")
-createPlatform(900,500, 400, 10, "rgb(10, 0, 99)")
-createPlatform(1000, 600, 400, 10, "rgb(10, 0, 99)")
-createPlatform(1300, 740, 20, -140, "rgb(10, 0, 99)")
-createPlatform(900, 700, 40, 10, "rgb(10, 0, 99)")
-createPlatform(397, 300, 110, 10, "rgb(10, 0, 99)")
-createPlatform(400, 190, 100, 10, "rgb(10, 0, 99)")
-createPlatform(580, 500, 20, 440, "rgb(10, 0, 99)")
-createPlatform(400, 100, 10, 100, "rgb(10, 0, 99)")
-createPlatform(100, 200, 100, 10, "rgb(10, 0, 99)")
-createPlatform(350, 100, 100, 10, "rgb(10, 0, 99)");
+createPlatform(300, 400, 20, 210)
+createPlatform(0, 400, 300, 20)
+createPlatform(490, 500, 110, 20)
+createPlatform(0, 650, 100, 20)
+createPlatform(200, 550, 100, 20)
+createPlatform(300, 610, 100, 20)
+createPlatform(500, 0, 20, 400)
+createPlatform(500, 390, 100, 20)
+createPlatform(600, 500, 10, 20)
+createPlatform(590, 280, 120, 20)
+createPlatform(600, 190, 100, 20)
+createPlatform(900, 300, 200, 10)
+createPlatform(600, 80, 110, 20)
+createPlatform(1100, 200, 300, 10)
+createPlatform(1300, 100, 20, 100)
+createPlatform(900, 100, 300, 20)
+createPlatform(900, 300, 20, 440)
+createPlatform(1000, 400, 400, 10)
+createPlatform(900,500, 400, 10)
+createPlatform(1000, 600, 400, 10)
+createPlatform(1300, 740, 20, -140)
+createPlatform(900, 700, 40, 10)
+createPlatform(397, 300, 110, 10)
+createPlatform(400, 190, 100, 10)
+createPlatform(580, 500, 20, 440)
+createPlatform(400, 100, 10, 100)
+createPlatform(100, 200, 100, 10)
+createPlatform(350, 100, 100, 10);
 
     // TODO 3 - Create Collectables
     createCollectable("screw", 450, 150, 0, 0);
@@ -77,7 +77,11 @@ createPlatform(350, 100, 100, 10, "rgb(10, 0, 99)");
     createCannon("top", 900, 3000);
     createCannon("top", 1400, 2000);
     createCannon("left", 0, 2000);
-    
+    createCannon("right", 500, 3000)
+    createCannon("bottom", 200, 2000)
+    createCannon("bottom", 100, 3000)
+    createCannon("bottom", 0, 2000)
+    createCannon("right", 600, 2000)
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
