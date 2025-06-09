@@ -58,7 +58,8 @@ createPlatform(400, 190, 100, 10)
 createPlatform(580, 500, 20, 440)
 createPlatform(400, 100, 10, 100)
 createPlatform(100, 200, 100, 10)
-createPlatform(350, 100, 100, 10);
+createPlatform(350, 100, 100, 10)
+createPlatform(300, 500, 40, 20);
 
     // TODO 3 - Create Collectables
     createCollectable("screw", 450, 150, 0, 0);
@@ -78,7 +79,6 @@ createPlatform(350, 100, 100, 10);
     createCannon("top", 1400, 2000);
     createCannon("left", 0, 2000);
     createCannon("right", 500, 3000)
-    createCannon("bottom", 200, 2000)
     createCannon("bottom", 100, 3000)
     createCannon("bottom", 0, 2000)
     createCannon("right", 600, 2000)
